@@ -306,7 +306,13 @@ color: white !important;
     text-align: center;
 }
 
+ .details-container.development {
+     border: 0 !important;
+ }
 
+.fixed-height-column {
+    height: 370px !important;
+}
 
 .section-container{
     gap: 4rem;
