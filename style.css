@@ -1,4 +1,4 @@
-/* Gerneral styling Start */
+/* General styling Start */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300&family=Saira:ital,wght@0,700;1,700&display=swap');
 
@@ -22,6 +22,44 @@ html{
 p{
     color: rgb(85 , 85, 85);
 }
+/**/
+/* Projects section */
+#projects .details-container {
+    padding: 0.9rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53,53,53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+    height: 380px; /* Set a fixed height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden; /* Hide overflow content */
+}
+
+#projects .details-container .article-container,
+#projects .details-container .project-img,
+#projects .details-container h2,
+#projects .details-container p,
+#projects .details-container .btn-container {
+    flex-shrink: 0;
+}
+
+#projects .details-container p {
+    flex-grow: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#projects .details-container h2,
+#projects .details-container .btn-container {
+    margin-top: auto;
+}
+
+
+/**/
 
 /* Transition */
 a, .btn{
