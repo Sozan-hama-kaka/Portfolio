@@ -513,6 +513,34 @@ aricle .icon{
 }
 
 /* Contact Section */
+/* Contact section styling */
+.contact-info-container {
+    display: flex;
+    align-items: center; /* Vertically centers the icon and text */
+    margin-bottom: 15px;
+}
+
+.contact-info-container img {
+    margin-right: 10px; /* Adds space between the icon and the text */
+    width: 24px; /* Adjust the size of the icons if necessary */
+    height: 24px; /* Ensure icons have consistent height */
+}
+
+.contact-info-container p {
+    margin: 0; /* Remove default margin from the paragraph */
+    font-size: 16px; /* Adjust font size as needed */
+}
+
+.contact-info-container a {
+    text-decoration: none;
+    color: #333; /* Adjust color as needed */
+    font-weight: 500; /* Make the text a bit bolder */
+}
+
+.contact-info-container a:hover {
+    color: #0073b1; /* Change color on hover, especially for LinkedIn link */
+}
+
 #contact{
     display: flex;
     justify-content: center;
