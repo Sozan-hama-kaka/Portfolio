@@ -402,6 +402,93 @@ aricle .icon{
 }
 
 /* Projects section */
+#projects {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.section__text__p1 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.tittle {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #444;
+}
+
+/* Flexbox container */
+.project-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* Individual project box */
+.project-box {
+    flex: 1 1 calc(33.333% - 20px);
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.2s;
+}
+
+.project-box:hover {
+    transform: translateY(-10px);
+}
+
+.project-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.experience-sub-tittle {
+    font-size: 22px;
+    margin: 15px 0;
+    color: #333;
+}
+
+.btn-container {
+    margin-top: 10px;
+}
+
+.btn {
+    padding: 10px 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .project-box {
+        flex: 1 1 calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .project-box {
+        flex: 1 1 100%;
+    }
+}
 
 #projects{
     position: relative;
