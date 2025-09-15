@@ -448,7 +448,7 @@ aricle .icon{
 .project-img {
     width: 100%;
   max-width: 200px;
-    height: auto;
+  height: auto;
   object-fit: contain;
   display: block;
   margin: 0 auto;  
