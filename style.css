@@ -446,9 +446,12 @@ aricle .icon{
 }
 
 .project-img {
-    max-width: 100%;
+    width: 100%;
+  max-width: 200px;
     height: auto;
-    border-radius: 5px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;  
 }
 
 .experience-sub-tittle {
